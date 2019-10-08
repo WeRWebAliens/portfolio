@@ -1,5 +1,5 @@
 body{
-  background:url(test3.png) no-repeat center center fixed;
+  background:url(../images/test3.png) no-repeat center center fixed;
   /* background-repeat: no-repeat; */
   background-size:cover;
   /* background-position:center; */
