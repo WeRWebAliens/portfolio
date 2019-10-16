@@ -1,9 +1,28 @@
 body{
-  background:url(test3.png) no-repeat center center fixed;
-  /* background-repeat: no-repeat; */
+  background:url(../images/test3.png) no-repeat center center fixed;
+   background-repeat: no-repeat;
   background-size:cover;
-  /* background-position:center; */
+   background-position:center;
+  /*FFA107*/
 
+}
+body .primary-menu{
+
+  background-color: #181818;
+  box-shadow: 0 5px 10px #141414;
+}
+body .primary-menu .navbar .nav-item{
+  margin: 0 10px;
+
+}
+body .primary-menu .navbar .nav-item .nav-link{
+  color: #FFA107 ;
+  padding: 5px;
+  text-transform: uppercase;
+  transition: all 350ms;
+}
+body .primary-menu .navbar .nav-item:hover .nav-link{
+  color: white ;
 }
 .hero{
   color:#228B22;
@@ -11,10 +30,27 @@ body{
   margin: auto;
   margin-top: 10%;
   font-family: 'Revalia', cursive;
-  font-size:4em;
+  font-size:4rem;
   text-shadow:2px 2px #808080;
 }
 .img{
   height:100px;
   width: 100px;
+}
+
+@media screen and (max-width: 1023px){
+  .hero{
+    font-size: 40px;
+  }
+  .hero .display-1{
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 767px){
+  .hero{
+    font-size: 21px;
+  }
+  .hero .display-1{
+    font-size: 36px;
+  }
 }
