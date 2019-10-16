@@ -1,0 +1,30 @@
+body{
+  background:url(test3.png) no-repeat center center fixed;
+  background-size:cover;
+}
+
+.hero{
+  color: rgb(189,164,96);
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  font-family: 'Revalia', cursive;
+  font-size:4em;
+  text-shadow: 2px 4px 3px rgb(186,105,19);
+
+}
+
+.img{
+  height:100px;
+  width: 100px;
+}
+
+.navbar{
+  background-color: rgb(2,16,36);
+}
+
+.navbar-brand{
+  font-family: Georgia;
+  font-weight: 800;
+
+}
