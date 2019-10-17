@@ -1,5 +1,5 @@
 body{
-  background:url(test3.png) no-repeat center center fixed;
+background:linear-gradient(to right,#C33764,#1D2671);
   /* background-repeat: no-repeat; */
   background-size:cover;
   /* background-position:center; */
@@ -17,4 +17,32 @@ body{
 .img{
   height:100px;
   width: 100px;
+}
+.header{
+  margin-left: 10%;
+  margin-top: 100px;
+}
+.header a{
+  text-decoration: none;
+   font-size: 20px;
+   padding:10px;
+}
+.container{
+  border-top: 2px solid orange;
+  margin-top:20px;
+  padding-top: 20px;
+}
+img{
+  width:400px;
+  height:300px;
+}
+.left{
+  width:30%;
+ float: left;
+  height:200px;
+}
+.right{
+  float: right;
+  width: 50%;
+  height: 200px;
 }
