@@ -1,20 +1,42 @@
-body{
-  background:url(test3.png) no-repeat center center fixed;
-  /* background-repeat: no-repeat; */
-  background-size:cover;
-  /* background-position:center; */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.hero{
-  color:#228B22;
+
+body {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 20%,
+      transparent 50%
+    ),
+    url(../images/test3.png);
+  background-size: 100vw 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 50px 0;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero {
+  color: #228b22;
   text-align: center;
   margin: auto;
-  margin-top: 10%;
-  font-family: 'Revalia', cursive;
-  font-size:4em;
-  text-shadow:2px 2px #808080;
+  margin-bottom: 15px;
+  font-family: "Revalia", cursive;
+  font-size: 4em;
+  text-shadow: 2px 2px #808080;
 }
-.img{
-  height:100px;
+
+.img {
+  height: 100px;
   width: 100px;
 }
