@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Aliens</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">WeB ALieNS</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BRANDS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Brand 1</a></li>
+            <li><a href="#">Brand 2</a></li>
+            <li><a href="#">Brand 3</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CURRENCY SELECTOR <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">INR <i class="fas fa-rupee-sign"></i></a></li>
+            <li><a href="#">USD <i class="fas fa-dollar-sign"></i>
+            </a></li>
+            
+          </ul>
+        </li>
+
+       </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">OFFERS</a></li>
+        <li><a href="#">LOGIN</a></li>
+        <li><form class="navbar-form navbar-inverse" role="search">
+          <div class="form-group">
+             <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-inverse">Go</button>
+        </form></li>
+        
+      </ul>
+    </div>
+
+   </div>
+</nav>
+
+
+   
+  
+  <div class="container">
+    <h1 class="hero">We are comming with <span class="display-1">Watches!!!</span> </h1>
+    <img class="img img-thumbnail d-block mx-auto" src="test3.png" alt="Watches">
+    <p><a class="btn btn-primary btn-lg" href="#" role="button"> Explore </a></p>
+  </div>
+  
+  </div>
+</body>
+</html>
