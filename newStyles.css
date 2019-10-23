@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 20%,
+      transparent 50%
+    ),
+    url(images/test3.png);
+  background-size: 100vw 100vh;
+}
+
+.container1 {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 50px 0;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero {
+  color: #228b22;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 15px;
+  font-family: "Revalia", cursive;
+  font-size: 4em;
+  text-shadow: 2px 2px #808080;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+}
+/* Logo (change width here) */
+.logo{
+    max-width: 125px;
+    height: auto;
+}
+/* Navbar */
+
+@media(min-width:768px) {
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.navbar-nav {
+    margin-top: 0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: initial;
+    color: green;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: green;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #7a7c82;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 4px 4px;
+}
