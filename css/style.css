@@ -15,7 +15,7 @@ body {
   background-size: 100vw 100vh;
 }
 
-.container {
+.container{
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px 0;
   border-radius: 3px;
@@ -40,3 +40,44 @@ body {
   height: 100px;
   width: 100px;
 }
+.logo{
+    max-width: 125px;
+    height: auto;
+}
+/* Navbar */
+
+@media(min-width:768px) {
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.navbar-nav {
+    margin-top: 0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: initial;
+    color: #FF5800;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FF5800;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #7a7c82;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 4px 4px;
+}
+
