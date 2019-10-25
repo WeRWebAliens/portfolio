@@ -1,0 +1,61 @@
+.row{
+   
+    overflow: hidden;
+    text-align: left;
+    display: inline;
+    background-color:skyblue;
+    padding: 20px;
+
+
+}
+.button1{
+    display: inline-block;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:white;
+}
+.button1:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+.button2{
+    display: inline-block;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:white;
+}
+.button2:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+.button3{
+    display: inline-block;
+    text-align: right;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+    color:white;
+}
+.button3:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+.button4{
+    display: inline-block;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:white;
+}
+.button4:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+.button{
+    display: inline-block;
+    padding: 14px 1030px 14px 16px;
+    text-align: center;
+    color:white;
+    
+}
